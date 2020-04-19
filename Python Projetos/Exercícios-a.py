@@ -19,3 +19,5 @@ print ( 'Está maiúscula?', a.isupper () )
 print ( 'É minúscula?', a.islower () )
 print ( 'Está capitalizada?', a.istitle () )
 #Ex.005
+n = int(input (' Insira um número:'))
+print ( 'O número {} que você escolheu tem antecessor {} e sucessor {}' .format(n, n-1, n+1 ))
