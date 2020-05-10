@@ -26,23 +26,20 @@ print ( 'O valor em dm é {}'.format ( dm ) )
 print ( 'O valor em dam é {}'.format ( dam ) )
 print ( 'O valor em hm é {}'.format ( hm ) )
 print ( 'O valor em km é {}'.format ( km ) )
-#Ex.009
-tab= int(input('Deseja saber a tabuadada de qual número?'))
-print( ' {} x {:2} = {}' . format(tab, 1, tab*1))
-print( ' {} x {:2} = {}' . format(tab, 2, tab*2))
-print( ' {} x {:2} = {}' . format(tab, 3, tab*3))
-print( ' {} x {:2} = {}' . format(tab, 4, tab*4))
-print( ' {} x {:2} = {}' . format(tab, 5, tab*5)) 
-print( ' {} x {:2} = {}' . format(tab, 6, tab*6))
-print( ' {} x {:2} = {}' . format(tab, 7, tab*7))
-print( ' {} x {:2} = {}' . format(tab, 8, tab*8))
-print( ' {} x {:2} = {}' . format(tab, 9, tab*9))
-print( ' {} x {:2} = {}' . format(tab, 10, tab*10))
-#Ex.010
-din = float ( input ('Olá, você deseja fazer conversâo de qual valor para Dólar e Euro?'))
+# Ex.009
+tab = int ( input ( 'Deseja saber a tabuadada de qual número?' ) )
+print ( ' {} x {:2} = {}'.format ( tab, 1, tab * 1 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 2, tab * 2 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 3, tab * 3 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 4, tab * 4 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 5, tab * 5 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 6, tab * 6 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 7, tab * 7 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 8, tab * 8 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 9, tab * 9 ) )
+print ( ' {} x {:2} = {}'.format ( tab, 10, tab * 10 ) )
+# Ex.010
+din = float ( input ( 'Olá, você deseja fazer conversâo de qual valor para Dólar e Euro?' ) )
 dol = din / 5.240
 eur = din / 5.70
-print( 'Você conseguirá comprar com {} aproximadamente {:.2f} em Dólar e em {:.2f} Euro.' .format(din,dol,eur))
-
-
-
+print ( 'Você conseguirá comprar com {} aproximadamente {:.2f} em Dólar e em {:.2f} Euro.'.format ( din, dol, eur ) )
