@@ -7,7 +7,6 @@ else :
     print ( 'Sua viagem de {} km custará R$ {:.2f}'.format ( km, (km * 1.5) ) )
 # Ex.032
 from datetime import date
-
 ano = int ( input ( 'Você deseja saber algo interessante? Digite um ano:' ) )
 if ano == 0 :
     ano = date.today ().year
