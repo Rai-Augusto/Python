@@ -10,6 +10,7 @@ print ( 'Seu primeiro nome é {} e seu último {} !'.format ( n[0], n[len ( n ) 
 # Ex.028
 from random import randint
 from time import sleep
+
 numero = int ( input ( 'Escolha um número entre 0 e 9: O valor escolhido foi?' ) )
 maquina = randint ( 0, 9 )
 print ( 'Processando...' )
