@@ -1,7 +1,11 @@
 # Default ignored files
 *.idea/
 .idea/
-**.idea/
+**/.idea
+*.idea
+.ideia*
 *.gitattributes/
 .gitattributes/
-**.gitattributes/
+**/.gitattributes
+.gitattributes*
+*.gitattributes
